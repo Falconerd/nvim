@@ -1,3 +1,84 @@
-vim.cmd("colorscheme ayu")
-
-vim.api.nvim_set_hl(0, "Comment", {fg = "Yellow"})
+--vim.cmd("colorscheme ayu")
+--vim.cmd("colorscheme default")
+vim.cmd("colorscheme tokyonight");
+vim.api.nvim_set_hl(0, "Comment", { fg = "#00cccc", bg = "#444c6e" })
+vim.api.nvim_set_hl(0, "GitSignsChange", { fg = "#ff9e64" })
+vim.api.nvim_set_hl(0, "GitSignsAdd", { fg = "#9ece6a" })
+vim.api.nvim_set_hl(0, "GitSignsDelete", { fg = "#db4b4b" })
+--local p = {
+    --    obsidian = "#08080a",
+    --    red = "#c65b5b",
+    --    blueberry = "#181622",
+    --    wine = "#3b253e",
+    --    matte_purple = "#332c4e",
+    --    navy = "#3b493c",
+    --    corpo_blue = "#487c8d",
+    --    teal = "#4ea89f",
+    --    green = "#9bbe69",
+    --    beige = "#dec6a1",
+    --    bright = "#edeccb",
+    --    comment = "#00ccdc",
+    --    terracotta = "#a05e5c",
+    --}
+    --
+    --vim.cmd "set termguicolors"
+    --
+--local p = {
+--    background            = "#2f1d2e",
+--    foreground            = "#a39d9b",
+--    cursor                = "#a39d9b",
+--    selection_background  = "#4f414c",
+--    selection_foreground  = "#2f1d2e",
+--    color0                = "#2f1d2e",
+--    color1                = "#ef6154",
+--    color2                = "#48b685",
+--    color3                = "#fec418",
+--    color4                = "#05b6ef",
+--    color5                = "#805ba3",
+--    color6                = "#5bc4be",
+--    color7                = "#a39d9b",
+--    color8                = "#776d70",
+--    color9                = "#ef6154",
+--    color10               = "#48b685",
+--    color11               = "#fec418",
+--    color12               = "#05b6ef",
+--    color13               = "#805ba3",
+--    color14               = "#5bc4be",
+--    color15               = "#e6e9da",
+--}
+--
+--function doSomething()
+--    local x = 2
+--    if x == 3 or x == "test" then
+--    end
+--    return 3
+--end
+--
+--vim.api.nvim_set_hl(0, "Normal", { bg = p.color0, fg = p.color15 })
+--vim.api.nvim_set_hl(0, "Comment", { fg = p.color12 })
+--vim.api.nvim_set_hl(0, "Function", { fg = p.color11, bold = true })
+--vim.api.nvim_set_hl(0, "Keyword", { fg = p.color3 })
+--vim.api.nvim_set_hl(0, "Conditional", { fg = p.color6 })
+--vim.api.nvim_set_hl(0, "String", { fg = p.color4 })
+--vim.api.nvim_set_hl(0, "Number", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "Pmenu", { bg = p.color0, fg = p.color15 })
+--vim.api.nvim_set_hl(0, "PmenuSel", { bg = p.selection_background, fg = p.color11 })
+--vim.api.nvim_set_hl(0, "StatusLine", { bg = p.color0, fg = p.color15 })
+--vim.api.nvim_set_hl(0, "Visual", { bg = p.selection_background })
+--vim.api.nvim_set_hl(0, "SignColumn", { bg = p.color0 })
+--vim.api.nvim_set_hl(0, "Type", { fg = p.color10, bold = true })
+--vim.api.nvim_set_hl(0, "MatchParen", { bg = p.selection_background })
+--vim.api.nvim_set_hl(0, "SpecialChar", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "Operator", { fg = p.color11 })
+--vim.api.nvim_set_hl(0, "DiffAdd", { fg = p.color10 })
+--vim.api.nvim_set_hl(0, "DiffDelete", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "DiffChange", { fg = p.color11 })
+--vim.api.nvim_set_hl(0, "DiffText", { fg = p.color15 })
+--vim.api.nvim_set_hl(0, "Label", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "Delimiter", { fg = p.color11 })
+--vim.api.nvim_set_hl(0, "Exception", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "Repeat", { fg = p.color1 })
+--vim.api.nvim_set_hl(0, "Identifier", { fg = p.color15 })
+--vim.api.nvim_set_hl(0, "Cursor", { bg = p.red, fg = p.bright, reverse = false })
+--vim.api.nvim_set_hl(0, "lCursor", { bg = p.red, fg = p.bright, reverse = false })
+--vim.api.nvim_set_hl(0, "TSCursor", { bg = p.red, fg = p.bright, reverse = false })

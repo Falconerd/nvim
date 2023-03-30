@@ -26,3 +26,12 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 vim.g.mapleader = " "
+
+vim.filetype.add({
+    extension = {
+        odin = "odin",
+    },
+    pattern = {
+        [".*.odin"] = "odin",
+    }
+})

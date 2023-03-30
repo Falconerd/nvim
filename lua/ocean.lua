@@ -1,0 +1,10 @@
+--local Color, colors, Group, groups, styles = require("colorbuddy").setup()
+--
+--Color.new("background", "#000000")
+--Color.new("foreground", "#ff0000")
+--Color.new("white", "#ff0000")
+--Color.new("red", "#cc6666")
+--
+--Group.new("Function", colors.yellow, colors.background, styles.bold)
+--
+--Group.new("Error", colors.red:light(), nil, styles.bold)
